@@ -6,6 +6,7 @@ import Link from "next/link";
 export default function Page(){
 
     const { data: session } = useSession();
+    
     const url = `https://github.com/apps/vk-new-github-app/installations/new/permissions?target_id=130341088`
 
     return (
